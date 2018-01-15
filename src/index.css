@@ -22,6 +22,8 @@ html {
 
 .listings-list {
   padding: 10px;
+  overflow-y: scroll;
+  height: 400px;
 }
 
 #ageRating {
