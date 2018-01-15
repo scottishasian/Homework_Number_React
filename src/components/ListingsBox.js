@@ -1,4 +1,5 @@
 import React from 'react';
+import ListingsList from './ListingsList';
 
 class ListingsBox extends React.Component {
   // constructor(props){
@@ -9,6 +10,7 @@ class ListingsBox extends React.Component {
     return(
       <div className='listings-box'>
         <h1>Movies</h1>
+        <ListingsList />
       </div>
     );
   }

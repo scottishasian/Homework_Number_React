@@ -6,4 +6,12 @@ body {
 
 .listings-box {
   border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
 }
