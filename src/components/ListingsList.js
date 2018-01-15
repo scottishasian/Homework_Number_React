@@ -9,6 +9,9 @@ class ListingsList extends React.Component {
     const listingNodes = this.props.listings.map(function(listing) {
       return (
         <Listing key={listing.id} movieName={listing.movieName}>
+          <div id="ageRating">
+            {listing.ageRating}
+          </div>
           {listing.movieTime}
         </Listing>
       )
