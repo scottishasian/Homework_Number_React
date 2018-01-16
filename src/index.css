@@ -21,13 +21,36 @@ html {
 }
 
 .listings-list {
-  padding: 10px;
+  margin-top: 20px;
   overflow-y: scroll;
   height: 400px;
+  padding: 10px;
+}
+
+form {
+  display: block;
+  margin-left: 15px;
+  margin-right: auto;
 }
 
 #ageRating {
-  float:right;
+  float: right;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+#movieTime {
+  border-radius: 5px;
+  background-color: grey;
+  width: 80px;
+  text-align: center;
+  font-size: 20px;
 }
 
 h1 {

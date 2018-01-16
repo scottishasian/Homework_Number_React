@@ -12,7 +12,9 @@ class ListingsList extends React.Component {
           <div id="ageRating">
             {listing.ageRating}
           </div>
-          {listing.movieTime}
+          <div id="movieTime">
+            {listing.movieTime}
+          </div>
         </Listing>
       )
     })
